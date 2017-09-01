@@ -1,0 +1,43 @@
+PYTHON
+
+扎实的pyhton编程基础,使用过一些常用库和第三方库
+
+平台：
+会一种web框架(django flask Tornado)
+
+进程(IPC) 线程(GIL 线程同步互斥) 协程 socket IO多路复用  进程线程携程的并发  文件操作
+
+前端有一定的了解
+
+有一定的算法基础(字符串处理，海量数据，树，图形，查找遍历 hash)
+
+openstack  docker 虚拟化技术  部署优化知识 celery MQ
+
+数据库 mysql mongo redis
+
+做网站：
+
+会html css js jq  ajax json
+
+会框架
+
+算法有一定要求(链表 二叉树 队列  栈)
+
+部署，MQ
+
+做数据：
+
+要求有丰富的库的使用知识
+
+爬虫的使用 （高并发 异步 和mongo存储）
+
+较强的逻辑能力
+
+自动化
+
+很强的算法能力
+
+自动化运维：
+运维库 逻辑能力 文件 进程线程处理
+
+linux shell

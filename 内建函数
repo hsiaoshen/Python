@@ -1,0 +1,24 @@
+id    type     help    dir
+
+chr str  int long  float   bool   list  tulpe   dict  set  frozenset
+
+bin   oct   ord    hex  
+
+input  raw_input  print
+
+range  xrange  zip  map    filter  reduce
+
+iter  
+
+staticmethod   classmethod
+
+issubclass  isinstance
+
+hasattr   getattr  setattr  delattr  
+
+super  property
+
+max   min  cmp  globals  locals  sorted  sum   pow 
+
+file open  reload
+

@@ -1,0 +1,145 @@
+2017-8-22
+
+注意: 文件名不能与第三方模块相同,否则引入模块时会认为引入自身文件
+
+https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868328689835ecd883d910145dfa8227b539725e5ed000
+1. 硬盘:断电可存储
+
+2. mongodb --> 非关系性的文档类型的数据库
+redis --> 键值型
+
+
+3. 数据的存储:
+(1) 文件(file)
+(2) 数据库
+
+
+4. 文件的打开  fd = open(filename, mode, buffering=-1)
+
+一个进程最多可以打开1204个fd,系统默认打开3个,sys.stdin,sys.stdout,sys.stderror
+
+node:(前提是在默认权限存在该模式)
+
+带b的为二进制的,一般在window下有用
+
+buffering:不写或者负数表示使用系统默认提供的缓冲机制,0无缓冲,1有行缓冲,大于1直接指明缓冲去大小
+
+缓冲区和缓冲机制:
+缺点:不能实时
+
+5. 文件的读取 
+
+read: 读取所有
+readline:读取一行
+readlines:把每一行都读取出来,形成一个列表,  --> 等同于 for line in fd:print line,
+
+对于大型文件:建议使用循环
+
+怎么获取一个文件的行数:
+line1 = 0
+
+fd = open('test.txt','a+')
+
+for line in fd:
+    line1 += 1
+
+
+6. 为什么读过的就不再读第二次:会记住上此操作的位置
+
+tell()函数告诉们偏移量
+seek(offset[,0/1/2]): 修改文件的偏移位置的偏移量    0:起始位置  1: 当前位置   2:结尾
+
+占位:空间已经被占用了
+fd.write('\0')
+fd.seek(1024)
+fd.write('\0')
+
+7. flush() 手动刷新缓存区
+
+全缓存区什么时候刷新:(1)进程正常结束(2)缓冲区满了(3)手动刷新
+行缓存区:(1)遇到换行符(2)进程正常结束(3)缓冲区满了(4) 手动刷新
+
+8. 文件夹操作
+
+os,shutil,os.path 这三个模块
+
+(1) os.remove(filename)  --> 删除一个文件
+(2) os.removedirs(dirname) --> 删除所有文件夹
+(3) os.path.isfile() --> 
+(4) os.path.isabs() --> 判断是不是绝对路径
+(5) os.path.exits() --> 判断一个路径是不是存在
+(6) os.path.split() --> 将一个路径进行拆分,生成一个元组,包含目录路径和文件名
+(7) os.path.join() --> 将多个路径进行拼接
+(8) os.path.splitext() --> 分离扩展名
+(9) os.path.dirname() --> 获取路径名称
+(10) os.path.basename() --> 获取文件名称
+(11) os.path.rename() --> 改名
+(12) os.path.mkdirs() --> 创建多级目录
+(13) os.path.mkdir() --> 创建一层目录
+(14) os.stat() --> 获取文件属性
+(15) os.path.getsize() --> 获取文件大小
+(16) os.getcwd() --> 获取绝对路径功能
+(17) os.listdir() --> ls功能
+(18) shutil.copyfile() --> 复制文件
+(19) shutil.copy() --> 
+(20) shutil.copytree() --> 把一个目录复制
+
+9. 进程
+
+好处:相对独立,比较安全
+缺点:系统资源占有大
+
+查看命令: ps -aux 
+pid = os.fork()  --> 创建一个进程
+
+os.gipid() --> 子进程号
+os.getppid() --> 父进程号
+
+孤儿进程: 对系统没什么影响,父进程先结束,子进程被其他进程收养
+处理僵尸进程:(1) 创建孙子进程(管道通信要求有亲缘关系,不适合)(2)signal(SIGCHLD,SIG_IGN)
+
+p.join() --> 阻塞函数,回收僵尸进程
+
+multiprocessing : Process,Queue(消息队列)  --> 完成进程间的通信(任何进程间) --> put()传,若消息队列满了那么会阻塞,get()获得,若获取为空会阻塞,Pipe(管道) --> ,Pool(池)
+
+进程池:是资源进程和管理进程组成的技术应用. --> (1)资源进程:预先创建好的空闲进程,管理进程会把工作分发到空闲进程中处理
+(2)管理进程:创建资源进程,分发工作,回收已经处理完的资源进程  
+
+相关网址: http://blog.csdn.net/u011012049/article/details/48436427
+
+进程状态符
+
+10. 线程(多线程适合IO密集型,不太适合计算密集型)
+
+一个进程有多个线程,共用同一个进程资源
+
+好处: 通信方便,占有资源小,数据可以通信
+
+python中最难问题之一GIL:全局解释锁
+
+缺点: 加锁,共用同一资源,所以为了让一个线程调用资源而其他不调用,就要加锁,这就是数据保护机制
+
+线程模块:threading
+线程池模块:threadpool --> 但是需要安装,属第三方模块
+常用:Thread,lock,event,Condition(条件),Semaphore 
+
+
+11. 守护线程:如果设置了一个线程为守护线程,那么这个线程就是不重要的,在进程结束时不会等待这个线程退出
+
+如果你的主线程在退出的时候，不用等待那些子线程完成，那就设置这些线程的daemon属性。即，在线程开始（thread.start()）之前，调用setDeamon（）函数，设定线程的daemon标志。（thread.setDaemon(True)）就表示这个线程“不重要”。
+
+12. 线程之间的同步和互斥
+13. 线程锁Lock
+14. event
+15. 协程模块:greenlet(第三方) ,但是协程还是单线程,资源消费少,只是遇到IO阻塞会跳转到不阻塞位置继续执行,等阻塞位置执行完后返回该位置执行
+
+
+pyhton中支持协程的模块(依赖于greenlet):gevent(常用) Stackless(据说高效) Eventlet
+
+gevent:
+
+gevent.sleep() --> 模拟IO阻塞
+gevent.spawn(fun) --> 创建协程
+gevent.joinall([fun1,fun2]) --> 遇到阻塞协程跳转
+
+

@@ -1,0 +1,13 @@
+IO
+
+阻塞IO：系统内核层面调用的 
+非阻塞IO：
+
+
+C语言的select和python中的协程类似
+
+多路复用：select，poll，epoll(高效,会直接告诉你谁准备好了)  
+
+事件驱动
+
+异步IO

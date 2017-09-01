@@ -1,0 +1,33 @@
+Django
+
+
+web服务器 uwsgi + Nginx
+
+1. 什么是框架?
+2. 什么是WEB框架?
+3. MVC:
+
+module --> 数据的提取操作的
+view --> 和用户交互的，以什么形式展示给用户
+control --> 逻辑核心，接受到什么请求，展示什么内容
+
+相互影响，互相分离,低耦合， 
+
+
+4. python常用框架
+
+Django，flask
+
+5. Django
+
+采用的MTV模式(model,views Template)
+
+view视图：不处理用户输入，仅仅决定展现什么数据给用户
+
+
+6. 如何创建一个项目
+
+(1)环境变量位置: /usr/local/bin/
+(2) 创建一个项目: django-admin startproject 项目名
+强调：安装完django就会有一个全局django-admin命令，后面第一个参数为你要干什么的命令
+Dug:true 方便调试，但是上线后要为false

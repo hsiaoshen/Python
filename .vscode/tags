@@ -1,0 +1,336 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	../cls2.py	/^class A(object):$/;"	kind:class	line:7
+A	../cls5.py	/^A = TalkCalculator()$/;"	kind:variable	line:19
+A	../cls6.py	/^class A(object):$/;"	kind:class	line:5
+A	../cls9.py	/^class A(object):$/;"	kind:class	line:9
+A	../module/b.py	/^class A(object):$/;"	kind:class	line:10
+ADDR	../internet/tcp/more_tcps.py	/^ADDR = (HOST,PORT)$/;"	kind:variable	line:10
+ADDR	../internet/tcp/tcp_client.py	/^ADDR = (HOST,PORT)$/;"	kind:variable	line:9
+ADDR	../internet/tcp/tcp_server.py	/^ADDR = (HOST,PORT)$/;"	kind:variable	line:9
+B	../cls2.py	/^class B(object):$/;"	kind:class	line:20
+B	../cls6.py	/^class B(A):$/;"	kind:class	line:8
+BUFSIZE	../internet/tcp/more_tcps.py	/^BUFSIZE = 1024$/;"	kind:variable	line:9
+BUFSIZE	../internet/tcp/tcp_client.py	/^BUFSIZE = 1024$/;"	kind:variable	line:8
+BUFSIZE	../internet/tcp/tcp_server.py	/^BUFSIZE = 1024$/;"	kind:variable	line:8
+Badao	../cls4.py	/^class Badao(Car):$/;"	kind:class	line:17
+Bar	../process/pool.py	/^def Bar(arg):$/;"	kind:function	line:14
+Bense	../cls4.py	/^class Bense(Car):$/;"	kind:class	line:20
+C	../cls2.py	/^class C(object):$/;"	kind:class	line:32
+C	../cls6.py	/^class C(B):$/;"	kind:class	line:11
+Calculator	../cls5.py	/^class Calculator(object):$/;"	kind:class	line:7
+Car	../cls4.py	/^class Car(object):$/;"	kind:class	line:6
+Chan	../cls7.py	/^Chan = Girl()$/;"	kind:variable	line:21
+ClassName	../cls.py	/^class ClassName(object):$/;"	kind:class	line:7
+ClsM	../cls3.py	/^class ClsM(object):$/;"	kind:class	line:6
+Dazhong	../cls4.py	/^class Dazhong(Car):$/;"	kind:class	line:14
+Foo	../process/pool.py	/^def Foo(i):$/;"	kind:function	line:6
+Gevent.py	../greenlet/Gevent.py	1;"	kind:file	line:1
+Girl	../cls7.py	/^class Girl(Person):$/;"	kind:class	line:12
+Greenlet.py	../greenlet/Greenlet.py	1;"	kind:file	line:1
+HOST	../internet/tcp/more_tcps.py	/^HOST = '127.0.0.1'$/;"	kind:variable	line:7
+HOST	../internet/tcp/tcp_client.py	/^HOST = sys.argv[1]$/;"	kind:variable	line:6
+HOST	../internet/tcp/tcp_server.py	/^HOST = '127.0.0.1'$/;"	kind:variable	line:6
+LinkAdd	../dataStruct/lianbiao.py	/^class LinkAdd(object):$/;"	kind:class	line:14
+LinkNode	../dataStruct/lianbiao.py	/^class LinkNode(object):$/;"	kind:class	line:7
+MyError	../try2.py	/^class MyError(Exception):$/;"	kind:class	line:5
+PORT	../internet/tcp/more_tcps.py	/^PORT = 3000$/;"	kind:variable	line:8
+PORT	../internet/tcp/tcp_client.py	/^PORT = int(sys.argv[2])$/;"	kind:variable	line:7
+PORT	../internet/tcp/tcp_server.py	/^PORT = 8889$/;"	kind:variable	line:7
+Person	../cls1.py	/^class Person(object):$/;"	kind:class	line:6
+Person	../cls7.py	/^class Person(object):$/;"	kind:class	line:5
+Private	../cls8.py	/^class Private(Protect):$/;"	kind:class	line:26
+Protect	../cls8.py	/^class Protect(object):$/;"	kind:class	line:5
+RequestHandler	../internet/http/httpserver.py	/^class RequestHandler(BaseHTTPRequestHandler):$/;"	kind:class	line:7
+RequestHandler	../internet/http/myftp.py	/^class RequestHandler(BaseHTTPRequestHandler):$/;"	kind:class	line:7
+TalkCalculator	../cls5.py	/^class TalkCalculator(Calculator,Talker):$/;"	kind:class	line:16
+Talker	../cls5.py	/^class Talker(object):$/;"	kind:class	line:11
+_C	../module/c.py	/^class _C(object):$/;"	kind:class	line:5
+__all__	../module/dir/dir1/__init__.py	/^__all__ = ['ctime','initFun'] /;"	kind:variable	line:10
+__call__	../cls9.py	/^    def __call__(self,a):$/;"	kind:member	line:23
+__deco	../myfun1.py	/^        def __deco(a,b):$/;"	kind:function	line:7
+__del__	../cls9.py	/^    def __del__(self):$/;"	kind:member	line:20
+__delattr__	../cls9.py	/^    def __delattr__(self,name):$/;"	kind:member	line:35
+__getattr__	../cls9.py	/^    def __getattr__(self,name):$/;"	kind:member	line:26
+__getitem__	../cls9.py	/^    def __getitem__(self,key):$/;"	kind:member	line:38
+__init__	../cls1.py	/^    def __init__(self,name):   # __init__(self)  对象的初始化函数,实例化对象自动执行,不需要调用$/;"	kind:member	line:8
+__init__	../cls3.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../cls4.py	/^    def __init__(self,name):$/;"	kind:member	line:7
+__init__	../cls7.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../cls7.py	/^    def __init__(self):$/;"	kind:member	line:6
+__init__	../cls8.py	/^    def __init__(self):$/;"	kind:member	line:6
+__init__	../cls9.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../dataStruct/lianbiao.py	/^    def __init__(self,val):$/;"	kind:member	line:8
+__init__.py	../module/dir/__init__.py	1;"	kind:file	line:1
+__init__.py	../module/dir/dir1/__init__.py	1;"	kind:file	line:1
+__len__	../cls9.py	/^    def __len__(self):$/;"	kind:member	line:44
+__new__	../cls9.py	/^    def __new__(cls):$/;"	kind:member	line:16
+__python	../cls8.py	/^    def __python(self):$/;"	kind:member	line:10
+__setattr__	../cls9.py	/^    def __setattr__(self,name,value):$/;"	kind:member	line:30
+__setitem__	../cls9.py	/^    def __setitem__(self,key,value):$/;"	kind:member	line:41
+_deco	../myfun.py	/^    def _deco(a,b):$/;"	kind:function	line:26
+_deco	../myfun1.py	/^    def _deco(fun):$/;"	kind:function	line:6
+a	../area.py	/^a = int(input())$/;"	kind:variable	line:4
+a	../cls.py	/^a = ClassName  # 这是把类赋给了a$/;"	kind:variable	line:23
+a	../cls1.py	/^a = Person('小明')    # 类中的参数给特定的方法传参$/;"	kind:variable	line:15
+a	../cls2.py	/^a =A()$/;"	kind:variable	line:12
+a	../cls3.py	/^a = ClsM()$/;"	kind:variable	line:18
+a	../cls9.py	/^a = A()$/;"	kind:variable	line:48
+a	../file/isin.py	/^a = sys.stdin.readline()$/;"	kind:variable	line:3
+a	../file/seek-tell.py	/^a = fd.read(24)$/;"	kind:variable	line:16
+a	../fun4.py	/^a = 1$/;"	kind:variable	line:2
+a	../fun5.py	/^a = 1$/;"	kind:variable	line:5
+a	../global.py	/^a = 5$/;"	kind:variable	line:5
+a	../if2.py	/^a = input('a>> ')$/;"	kind:variable	line:1
+a	../if3.py	/^a = input('a>> ')$/;"	kind:variable	line:1
+a	../module/a.py	/^a = B.A()$/;"	kind:variable	line:14
+a	../sanmuyunsuan.py	/^a = input()$/;"	kind:variable	line:1
+a	../thread/lock.py	/^a = 1$/;"	kind:variable	line:8
+a.py	../module/a.py	1;"	kind:file	line:1
+about	../cls7.py	/^    def about(self,name):$/;"	kind:member	line:17
+about	../cls7.py	/^    def about(self,name):$/;"	kind:member	line:9
+action	../bibao.py	/^    def action(X):$/;"	kind:function	line:7
+address	../internet/http/httpserver.py	/^address = ('127.0.0.1',3000)$/;"	kind:variable	line:18
+age	../cls1.py	/^    age = 12$/;"	kind:variable	line:7
+age	../cls5.py	/^    age = 88$/;"	kind:variable	line:10
+area	../area.py	/^area = math.sqrt(s * (s - a) * (s - b) * (s - c))$/;"	kind:variable	line:13
+area.py	../area.py	1;"	kind:file	line:1
+attr	../cls6.py	/^     attr = "test"$/;"	kind:variable	line:6
+b	../area.py	/^b = int(input())$/;"	kind:variable	line:5
+b	../cls.py	/^b = a()  # a也是一个类,可以实例化$/;"	kind:variable	line:31
+b	../cls1.py	/^b = Person('小李')$/;"	kind:variable	line:16
+b	../cls2.py	/^b = B()$/;"	kind:variable	line:26
+b	../cls4.py	/^b  = Badao('fengtian')$/;"	kind:variable	line:24
+b	../fun5.py	/^b = 2$/;"	kind:variable	line:6
+b	../greenlet/Gevent.py	/^b = gevent.spawn(bar)$/;"	kind:variable	line:20
+b	../if2.py	/^b = input('b>> ')$/;"	kind:variable	line:2
+b	../if3.py	/^b = input('b>> ')$/;"	kind:variable	line:2
+b	../module/b.py	/^def b():$/;"	kind:function	line:13
+b.py	../module/b.py	1;"	kind:file	line:1
+bar	../cls2.py	/^    bar = 1$/;"	kind:variable	line:33
+bar	../greenlet/Gevent.py	/^def bar():$/;"	kind:function	line:14
+bibao.py	../bibao.py	1;"	kind:file	line:1
+c	../area.py	/^c = int(input())$/;"	kind:variable	line:6
+c	../cls2.py	/^c  = C()$/;"	kind:variable	line:40
+c	../cls4.py	/^c = Bense('自由光')$/;"	kind:variable	line:32
+c	../cls6.py	/^c = C()$/;"	kind:variable	line:14
+c	../if2.py	/^c = input('c>> ')$/;"	kind:variable	line:3
+c	../if3.py	/^c = input('c>> ')$/;"	kind:variable	line:3
+c	../module/b.py	/^c = 1$/;"	kind:variable	line:16
+c.py	../module/c.py	1;"	kind:file	line:1
+change_age	../cls1.py	/^    def change_age(self,num):$/;"	kind:member	line:12
+chinese.py	../chinese.py	1;"	kind:file	line:1
+cls.py	../cls.py	1;"	kind:file	line:1
+cls1.py	../cls1.py	1;"	kind:file	line:1
+cls2.py	../cls2.py	1;"	kind:file	line:1
+cls3.py	../cls3.py	1;"	kind:file	line:1
+cls4.py	../cls4.py	1;"	kind:file	line:1
+cls5.py	../cls5.py	1;"	kind:file	line:1
+cls6.py	../cls6.py	1;"	kind:file	line:1
+cls7.py	../cls7.py	1;"	kind:file	line:1
+cls8.py	../cls8.py	1;"	kind:file	line:1
+cls9.py	../cls9.py	1;"	kind:file	line:1
+command	../mySQLdb/stumanage.py	/^def command():$/;"	kind:function	line:3
+copy.py	../file/copy.py	1;"	kind:file	line:1
+createThread.py	../thread/createThread.py	1;"	kind:file	line:1
+cursor	../mySQLdb/data.py	/^cursor = db.cursor()$/;"	kind:variable	line:18
+cursor	../mySQLdb/table.py	/^cursor = db.cursor()$/;"	kind:variable	line:16
+d	../fun.py	/^d = {'a':7,'b':8}$/;"	kind:variable	line:30
+d	../module/b.py	/^d = _C()    # 受保护的类生成对象$/;"	kind:variable	line:22
+d	../module/dir/d.py	/^def d():$/;"	kind:function	line:1
+d.py	../module/dir/d.py	1;"	kind:file	line:1
+data	../internet/tcp/select_server.py	/^                data = r.recv(1024)$/;"	kind:variable	line:26
+data	../internet/tcp/tcp_client.py	/^    data = input('>')$/;"	kind:variable	line:15
+data	../internet/tcp/tcp_client.py	/^    data = sockfd.recv(BUFSIZE).decode()$/;"	kind:variable	line:19
+data	../internet/tcp/tcp_server.py	/^        data = connfd.recv(BUFSIZE)$/;"	kind:variable	line:21
+data.py	../mySQLdb/data.py	1;"	kind:file	line:1
+db	../mySQLdb/data.py	/^    db = MySQLdb.connect('localhost',user,password,'testdb')$/;"	kind:variable	line:12
+db	../mySQLdb/table.py	/^    db = MySQLdb.connect('localhost',user,password,'testdb')$/;"	kind:variable	line:11
+deco	../myfun.py	/^def deco(fun):$/;"	kind:function	line:25
+deco	../myfun1.py	/^def deco(arg):$/;"	kind:function	line:5
+div	../try.py	/^def div(a,b):$/;"	kind:function	line:5
+div	../try1.py	/^def div(a,b):$/;"	kind:function	line:8
+do_GET	../internet/http/httpserver.py	/^    def do_GET(self):$/;"	kind:member	line:8
+do_GET	../internet/http/myftp.py	/^    def do_GET(self):$/;"	kind:member	line:8
+do_POST	../internet/http/httpserver.py	/^    def do_POST(self):$/;"	kind:member	line:14
+do_POST	../internet/http/myftp.py	/^    def do_POST(self):   $/;"	kind:member	line:15
+door	../cls4.py	/^    door = 4$/;"	kind:variable	line:9
+e	../module/dir/dir1/e.py	/^def e():$/;"	kind:function	line:1
+e	../thread/event.py	/^e = threading.Event()$/;"	kind:variable	line:4
+e.py	../module/dir/dir1/e.py	1;"	kind:file	line:1
+elif.py	../elif.py	1;"	kind:file	line:1
+event	../thread/event.py	/^event = e.wait()$/;"	kind:variable	line:8
+event	../thread/event.py	/^event = e.wait(2)$/;"	kind:variable	line:13
+event.py	../thread/event.py	1;"	kind:file	line:1
+f	../bibao.py	/^f = maker(2)   # 此时maker的内存空间被清除$/;"	kind:variable	line:11
+f	../fun.py	/^def f(a,b):$/;"	kind:function	line:5
+f	../fun3.py	/^def f(a,*b, c):$/;"	kind:function	line:5
+f	../fun4.py	/^def f():$/;"	kind:function	line:4
+f	../global.py	/^def f():$/;"	kind:function	line:7
+f	../greenlet/Gevent.py	/^f = gevent.spawn(foo,1)$/;"	kind:variable	line:19
+f	../str.py	/^def f(char):$/;"	kind:function	line:5
+f1	../fun2.py	/^def f1(a,b):$/;"	kind:function	line:7
+f2	../fun2.py	/^def f2(a,b = 100):$/;"	kind:function	line:16
+f3	../fun2.py	/^def f3(*a):$/;"	kind:function	line:27
+f4	../fun2.py	/^def f4(a,*b):$/;"	kind:function	line:37
+f5	../fun2.py	/^def f5(a,b,*c,**d):$/;"	kind:function	line:44
+fc	../module/c.py	/^def fc():$/;"	kind:function	line:2
+fd	../file/copy.py	/^fd = open('jq.html')$/;"	kind:variable	line:1
+fd	../file/flush.py	/^fd = open('file1.txt','a+')$/;"	kind:variable	line:6
+fd	../file/open.py	/^fd  = open('file.txt')$/;"	kind:variable	line:5
+fd	../file/seek-tell.py	/^fd = open('file1.txt','r+')$/;"	kind:variable	line:8
+fd	../file/seek.py	/^fd = open('朦胧夜色', 'w+')$/;"	kind:variable	line:5
+fd	../file/text.py	/^fd = open('test.txt','a+')$/;"	kind:variable	line:6
+fd1	../file/copy.py	/^fd1 = open('jq1.html','a+')$/;"	kind:variable	line:2
+fib	../yield1.py	/^def fib(max):$/;"	kind:function	line:3
+fib	../yield2.py	/^def fib(max):$/;"	kind:function	line:7
+flush.py	../file/flush.py	1;"	kind:file	line:1
+foo	../cls2.py	/^    def foo():$/;"	kind:member	line:22
+foo	../greenlet/Gevent.py	/^def foo(a):$/;"	kind:function	line:8
+foo1	../cls2.py	/^    def foo1(cls):  # 传入的是当前的类,可以调用当前类的属性和方法$/;"	kind:member	line:35
+for.py	../for.py	1;"	kind:file	line:1
+fork.py	../process/fork.py	1;"	kind:file	line:1
+fun	../cls.py	/^    def fun(self):  # 方法,需有个形参self,名字可以随便取,但是约定俗称的叫self,$/;"	kind:member	line:9
+fun	../cls2.py	/^    def fun(self):$/;"	kind:member	line:9
+fun	../cls3.py	/^def fun(self):$/;"	kind:function	line:13
+fun	../fun5.py	/^def fun():$/;"	kind:function	line:8
+fun	../myfun.py	/^def fun(a,b):$/;"	kind:function	line:32
+fun	../myfun1.py	/^def fun(a,b):$/;"	kind:function	line:18
+fun	../return.py	/^def fun():$/;"	kind:function	line:5
+fun	../yield.py	/^def fun():$/;"	kind:function	line:8
+fun.py	../fun.py	1;"	kind:file	line:1
+fun1	../cls3.py	/^def fun1(self):$/;"	kind:function	line:26
+fun1	../return.py	/^def fun1():$/;"	kind:function	line:8
+fun1	../thread/lock.py	/^def fun1():$/;"	kind:function	line:10
+fun2	../cls3.py	/^def fun2(self):$/;"	kind:function	line:35
+fun2	../thread/lock.py	/^def fun2():$/;"	kind:function	line:19
+fun2.py	../fun2.py	1;"	kind:file	line:1
+fun3.py	../fun3.py	1;"	kind:file	line:1
+fun4.py	../fun4.py	1;"	kind:file	line:1
+fun5.py	../fun5.py	1;"	kind:file	line:1
+func	../func.py	/^def func():$/;"	kind:function	line:3
+func.py	../func.py	1;"	kind:file	line:1
+getName	../cls8.py	/^    def getName(self):$/;"	kind:member	line:13
+getPython	../cls8.py	/^    def getPython(self):$/;"	kind:member	line:23
+gevent_server.py	../internet/tcp/gevent_server.py	1;"	kind:file	line:1
+global.py	../global.py	1;"	kind:file	line:1
+gr1	../greenlet/Greenlet.py	/^gr1 = greenlet(test1)$/;"	kind:variable	line:17
+gr2	../greenlet/Greenlet.py	/^gr2 = greenlet(test2)$/;"	kind:variable	line:18
+handler	../internet/tcp/gevent_server.py	/^def handler(conn):$/;"	kind:function	line:19
+httpserver.py	../internet/http/httpserver.py	1;"	kind:file	line:1
+i	../while-houzi.py	/^i = 1$/;"	kind:variable	line:1
+if.py	../if.py	1;"	kind:file	line:1
+if2.py	../if2.py	1;"	kind:file	line:1
+if3.py	../if3.py	1;"	kind:file	line:1
+initFun	../module/dir/dir1/__init__.py	/^def initFun():$/;"	kind:function	line:7
+inner	../nonlocal.py	/^    def inner():$/;"	kind:function	line:10
+inputs	../internet/tcp/select_server.py	/^inputs = [s]$/;"	kind:variable	line:15
+isin.py	../file/isin.py	1;"	kind:file	line:1
+k	../return.py	/^k =  fun()$/;"	kind:variable	line:11
+k	../sanmuyunsuan.py	/^k  = True if a else False$/;"	kind:variable	line:3
+k	../yield.py	/^k = fun()$/;"	kind:variable	line:13
+l	../for.py	/^l = [x ** 2 for x in [1,2,3,4,5]]$/;"	kind:variable	line:7
+l	../fun.py	/^l = [4,5]$/;"	kind:variable	line:22
+l	../str.py	/^l = f('hello world')$/;"	kind:variable	line:10
+l1	../dataStruct/lianbiao.py	/^    l1 = [3,4,5,3]$/;"	kind:variable	line:65
+l2	../dataStruct/lianbiao.py	/^    l2 = [2,6,4]$/;"	kind:variable	line:66
+lianbiao.py	../dataStruct/lianbiao.py	1;"	kind:file	line:1
+line1	../file/text.py	/^line1 = 0$/;"	kind:variable	line:4
+linklist	../dataStruct/lianbiao.py	/^def linklist(l):$/;"	kind:function	line:33
+lock	../thread/lock.py	/^lock = Lock()$/;"	kind:variable	line:26
+lock.py	../thread/lock.py	1;"	kind:file	line:1
+login验证.py	../login验证.py	1;"	kind:file	line:1
+main	../dataStruct/lianbiao.py	/^def main(l1,l2):$/;"	kind:function	line:43
+maker	../bibao.py	/^def maker(N):$/;"	kind:function	line:6
+more_tcps.py	../internet/tcp/more_tcps.py	1;"	kind:file	line:1
+movie	../thread/createThread.py	/^def movie(name):$/;"	kind:function	line:12
+music	../thread/createThread.py	/^def music(name):$/;"	kind:function	line:7
+myftp.py	../internet/http/myftp.py	1;"	kind:file	line:1
+myfun.py	../myfun.py	1;"	kind:file	line:1
+myfun1.py	../myfun1.py	1;"	kind:file	line:1
+name	../cls.py	/^    name = '战狼'  # 成员$/;"	kind:variable	line:8
+name	../cls2.py	/^    name = '1'$/;"	kind:variable	line:8
+name	../cls3.py	/^    name = 'lisi'$/;"	kind:variable	line:7
+name	../cls5.py	/^    name = "liyong"$/;"	kind:variable	line:12
+name	../cls5.py	/^    name ="luosifu"$/;"	kind:variable	line:8
+name	../login验证.py	/^name = raw_input()$/;"	kind:variable	line:20
+name	../module/c.py	/^    name = 'lisi'$/;"	kind:variable	line:6
+nohuanhang.py	../nohuanhang.py	1;"	kind:file	line:1
+nonlocal.py	../nonlocal.py	1;"	kind:file	line:1
+open.py	../file/open.py	1;"	kind:file	line:1
+out	../nonlocal.py	/^def out():$/;"	kind:function	line:7
+password	../mySQLdb/data.py	/^password = getpass.getpass('密码：')$/;"	kind:variable	line:7
+password	../mySQLdb/table.py	/^password = getpass.getpass('密码：')$/;"	kind:variable	line:7
+person	../cls.py	/^person = ClassName()   # 实例化要加括号,不加括号叫做赋值$/;"	kind:variable	line:15
+pid	../process/fork.py	/^pid = os.fork()$/;"	kind:variable	line:8
+pool	../internet/tcp/more_tcps.py	/^pool = Pool(10)$/;"	kind:variable	line:29
+pool	../process/pool.py	/^pool = Pool(5)$/;"	kind:variable	line:17
+pool.py	../process/pool.py	1;"	kind:file	line:1
+processing.py	../process/processing.py	1;"	kind:file	line:1
+q	../process/processing.py	/^    q = Queue()$/;"	kind:variable	line:30
+r	../return.py	/^r = fun1()$/;"	kind:variable	line:12
+reg	../login验证.py	/^    def reg(reg):$/;"	kind:function	line:6
+reg	../login验证.py	/^def reg(name):$/;"	kind:function	line:17
+reg_check	../login验证.py	/^def reg_check(arg):$/;"	kind:function	line:5
+regc	../login验证.py	/^        def regc(name):$/;"	kind:function	line:7
+result	../try.py	/^result = div(1,'a')$/;"	kind:variable	line:32
+result	../try1.py	/^result = div(1,1)     # 正常$/;"	kind:variable	line:34
+return.py	../return.py	1;"	kind:file	line:1
+run	../cls4.py	/^    def run(self):$/;"	kind:member	line:11
+run	../cls4.py	/^    def run(self):$/;"	kind:member	line:21
+s	../area.py	/^s = (a + b + c) \/ 2$/;"	kind:variable	line:11
+s	../file/flush.py	/^    s = sys.stdin.readline()$/;"	kind:variable	line:10
+s	../internet/tcp/select_server.py	/^s = socket()$/;"	kind:variable	line:9
+s	../try2.py	/^    s = None$/;"	kind:variable	line:9
+sanmuyunsuan.py	../sanmuyunsuan.py	1;"	kind:file	line:1
+score	../elif.py	/^score = input('score = ')$/;"	kind:variable	line:3
+seat	../cls4.py	/^    seat = 7$/;"	kind:variable	line:18
+seek-tell.py	../file/seek-tell.py	1;"	kind:file	line:1
+seek.py	../file/seek.py	1;"	kind:file	line:1
+select_server.py	../internet/tcp/select_server.py	1;"	kind:file	line:1
+server	../internet/http/httpserver.py	/^server = HTTPServer(address,RequestHandler)$/;"	kind:variable	line:19
+server	../internet/tcp/gevent_server.py	/^def server(port):$/;"	kind:function	line:10
+setName	../cls8.py	/^    def setName(self,name = 'admin'):$/;"	kind:member	line:16
+sex	../cls5.py	/^    sex ='man'$/;"	kind:variable	line:14
+sockfd	../internet/tcp/more_tcps.py	/^sockfd = socket(AF_INET,SOCK_STREAM,0)$/;"	kind:variable	line:12
+sockfd	../internet/tcp/tcp_client.py	/^sockfd = socket(AF_INET,SOCK_STREAM,0)$/;"	kind:variable	line:11
+sockfd	../internet/tcp/tcp_server.py	/^sockfd = socket(AF_INET,SOCK_STREAM,0)$/;"	kind:variable	line:11
+speek	../internet/tcp/more_tcps.py	/^def speek(addr):$/;"	kind:function	line:16
+str.py	../str.py	1;"	kind:file	line:1
+stream.py	../stream.py	1;"	kind:file	line:1
+stumanage.py	../mySQLdb/stumanage.py	1;"	kind:file	line:1
+su	../while-houzi.py	/^    su = 2 * (su + 1) $/;"	kind:variable	line:4
+su	../while-houzi.py	/^su = 1$/;"	kind:variable	line:2
+t	../cls8.py	/^t = Protect()$/;"	kind:variable	line:29
+t	../internet/tcp/more_tcps.py	/^t = []$/;"	kind:variable	line:27
+t	../yield1.py	/^t = fib(20)$/;"	kind:variable	line:10
+t	../yield2.py	/^t = fib(20)$/;"	kind:variable	line:14
+t1	../cls8.py	/^t1 = Private()$/;"	kind:variable	line:39
+t1	../thread/lock.py	/^t1 = Thread(target=fun1)$/;"	kind:variable	line:28
+t2	../thread/lock.py	/^t2 = Thread(target=fun2)$/;"	kind:variable	line:29
+table.py	../mySQLdb/table.py	1;"	kind:file	line:1
+tcp_client.py	../internet/tcp/tcp_client.py	1;"	kind:file	line:1
+tcp_server.py	../internet/tcp/tcp_server.py	1;"	kind:file	line:1
+teacher	../process/processing.py	/^def teacher(interval,q):$/;"	kind:function	line:20
+test.py	../test.py	1;"	kind:file	line:1
+test1	../greenlet/Greenlet.py	/^def test1():$/;"	kind:function	line:7
+test2	../greenlet/Greenlet.py	/^def test2():$/;"	kind:function	line:12
+text.py	../file/text.py	1;"	kind:file	line:1
+th	../process/processing.py	/^    th = multiprocessing.Process(name = teacher, target =  teacher, args=(3,q))$/;"	kind:variable	line:33
+time1	../file/text.py	/^    time1 = time.strftime("%Y-%m-%d %X", time.localtime())$/;"	kind:variable	line:15
+to_add	../dataStruct/lianbiao.py	/^    def to_add(self,L1,L2):$/;"	kind:member	line:16
+try.py	../try.py	1;"	kind:file	line:1
+try1.py	../try1.py	1;"	kind:file	line:1
+try2.py	../try2.py	1;"	kind:file	line:1
+user	../mySQLdb/data.py	/^user = raw_input('用户名：')$/;"	kind:variable	line:6
+user	../mySQLdb/table.py	/^user = raw_input('用户名：')$/;"	kind:variable	line:6
+while-houzi.py	../while-houzi.py	1;"	kind:file	line:1
+wk	../process/processing.py	/^    wk = multiprocessing.Process(name = worker, target =  worker, args=(2,q))$/;"	kind:variable	line:31
+worker	../process/processing.py	/^def worker(interval,q):$/;"	kind:function	line:11
+yield.py	../yield.py	1;"	kind:file	line:1
+yield1.py	../yield1.py	1;"	kind:file	line:1
+yield2.py	../yield2.py	1;"	kind:file	line:1

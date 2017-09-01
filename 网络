@@ -1,0 +1,74 @@
+
+在Python中是点分十进制，在C语言中需要转换
+
+OSI模型:
+
+四层:应用层(含有表示层,会话层),传输层,网络层,物理链路层(包括物理层和链路层)
+
+应用层(Telnet,FTP,HTTP,DNS等)
+|
+传输层(TCP和UDP)
+|
+网络层(IP,ICMP,IGMP)
+
+127.0.0.1:本机测试IP
+0.0.0.0: 局域网测试IP
+
+TCP/IP协议:协议簇
+
+HTTP:超文本传输协议
+
+socket:
+
+socket套接字
+(1)流式套接字:传输层用的TCP协议(面向连接)
+
+TCP:三次握手和四次挥手
+
+
+为什么要四次挥手？
+
+(进行连接)三次握手：
+
+(1) 
+
+(断开连接)四次挥手：
+
+
+linux下的Tcp测试工具，telnet ip port
+
+1. socket.socket() --> 创建套接字，不加参数默认是TCP协议
+2. socket.bind(ADDR)  -->  ADDR ==(HOST,PORT)
+3. socket.listen(5)  --> 监听队列
+4. connfd,addr = socket.accept()  --> 阻塞函数，用来接收连接，有连接就返回新套接字(connfd)和客户端地址
+5. connfd.recv(BUFSIZE) --> 接收缓冲区，返回是数据
+6. connfd.sendall()   --> 向客户端返回信息
+
+
+
+(2) 原始套接字:用的UDP协议(无连接)
+
+
+http协议:
+
+1. 含义：应用层协议，在传输层采用TCP协议，三次握手进行连接，服务器端使用Apache,Nginx,ILS,
+2. 请求格式：请求行(包含method url 协议版本) + 请求报头 + 空行 + 正文
+响应格式：响应行(协议版本) + 响应头() + 空行 + 响应内容
+
+3. 特点：
+(1) 应用层协议，在传输层采用TCP协议,是超文本传输协议
+(2) 随断随连
+(3 不记录状态,使用cookie
+(4 使用MINEType类型 
+
+
+消息码
+3开头是资源重定向
+4开头是浏览器错误
+5开头是服务器错误
+
+
+报头行：
+accept-charset:指定客户端接收的字符集
+date:发生时间
+content-Length： 正文长度
